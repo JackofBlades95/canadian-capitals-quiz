@@ -1,7 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-* { 
+* {
     font-family: 'Crimson', sans-serif;
     padding: 0;
     margin: 0;
@@ -10,22 +10,23 @@
 }
 
 body {
-    font-family: 'Crimson', sans-serif
-
+    font-family: 'Crimson', sans-serif;
+    
 }
 
 main {
-background: url("../images/canadianparliament.jpg");
-width: 100%;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-background-color: white;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+    background: url("../images/canadianparliament.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
 }
 
 .box {
@@ -34,5 +35,18 @@ background-position: center;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
+    padding: 30px;
+
+}
+
+.btn {
+    background: white;
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
 
 }
