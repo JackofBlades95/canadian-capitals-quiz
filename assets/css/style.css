@@ -11,6 +11,22 @@
 
 body {
     font-family: 'Crimson', sans-serif;
-    background: grey;
+
+}
+
+main {
+    background: url("../images/canadianparliament.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
 
 }
