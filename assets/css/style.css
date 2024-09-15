@@ -68,3 +68,8 @@ main {
     border-radius: 4px;
 
 }
+ 
+#next-btn:hover {
+background: black;
+color: white;
+}
