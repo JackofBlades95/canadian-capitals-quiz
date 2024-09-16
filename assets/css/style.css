@@ -45,6 +45,21 @@ main {
 
 }
 
+#header {
+    padding: 10px;
+
+}
+
+.questions {
+    padding: 10px;
+
+}
+
+#question {
+    padding: 10px;
+
+}
+
 .btn {
     background: white;
     color: black;
@@ -72,6 +87,8 @@ main {
     margin: 10px auto 0;
     text-align: center;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
 
 }
  
