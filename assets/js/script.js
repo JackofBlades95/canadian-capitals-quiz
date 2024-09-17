@@ -1,8 +1,7 @@
-const questions = [
-    {
+const questions = [{
         question: "What is the capital of Ontario ?",
-        optionA: "Hamilton"
-        optionB: "Ottawa"
+        optionA: "Ottawa"
+        optionB: "Hamilton"
         optionC: "Toronto"
         correctOption: "optionC"
 
@@ -10,10 +9,10 @@ const questions = [
 
     {
         question: "What is the capital of Quebec ?",
-        optionA: "Montreal"'
+        optionA: "Montreal"
         optionB: "Quebec City"
         optionC: "Gatineau"
-       correctOption: "optionB"
+        correctOption: "optionB"
     },
 
     {
@@ -115,4 +114,11 @@ const questions = [
 
     },
 
- ];
+];
+
+const quizContainer = document.getElementById('quiz')
+const scoreElement = document.getElementById('score')
+const questionNumberElement = document.getElementById('question-number')
+const questionElement = document.getElementById('question')
+const buttonElement = document.getElementById('buttons')
+const nextButtonElement = document.getElementById('next-btn')
