@@ -123,5 +123,5 @@ const questionElement = document.getElementById('question')
 const buttonElement = document.getElementById('buttons')
 const nextButtonElement = document.getElementById('next-btn')
 
-let score = 0
-let questionNumber = 0
+let currentQuestionIndex = 0;
+let score = 0;
