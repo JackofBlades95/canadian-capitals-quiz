@@ -129,6 +129,6 @@ let score = 0;
 loadQuestion();
 
 function loadQuestion() {
-
+const currentQuestion = questions[currentQuestionIndex];
 
  }
