@@ -126,10 +126,9 @@ const nextButtonElement = document.getElementById('next-btn')
 let currentQuestionIndex = 0;
 let score = 0;
 
-loadQuestion();
-
 function loadQuestion() {
-const currentQuestion = questions[currentQuestionIndex];
+
+    const currentQuestion = questions[currentQuestionIndex];
 
 questionElement.textContent = currentQuestion.question;
 
@@ -138,3 +137,5 @@ document.getElementById('optionB').textContent = currentQuestion.optionB
 document.getElementById('optionC').textContent = currentQuestion.optionC
 
  }
+
+ loadQuestion();
