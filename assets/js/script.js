@@ -130,7 +130,7 @@ function loadQuestion() {
 
     const currentQuestion = questions[currentQuestionIndex];
 
-questionElement.textContent = currentQuestion.question;
+    questionElement.textContent = currentQuestion.question;
 
 document.getElementById('optionA').textContent = currentQuestion.optionA
 document.getElementById('optionB').textContent = currentQuestion.optionB
