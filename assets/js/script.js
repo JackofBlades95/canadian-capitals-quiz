@@ -131,4 +131,5 @@ loadQuestion();
 function loadQuestion() {
 const currentQuestion = questions[currentQuestionIndex];
 
+questionElement.textContent = currentQuestion.question;
  }
