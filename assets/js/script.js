@@ -132,10 +132,10 @@ function loadQuestion() {
 
     questionElement.textContent = currentQuestion.question;
 
-document.getElementById('optionA').textContent = currentQuestion.optionA
-document.getElementById('optionB').textContent = currentQuestion.optionB
-document.getElementById('optionC').textContent = currentQuestion.optionC
+    document.getElementById('optionA').textContent = currentQuestion.optionA
+    document.getElementById('optionB').textContent = currentQuestion.optionB
+    document.getElementById('optionC').textContent = currentQuestion.optionC
 
- }
+}
 
- loadQuestion();
+loadQuestion();
