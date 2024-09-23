@@ -143,5 +143,5 @@ function loadQuestion() {
 loadQuestion();
 
 function handleAnswer(selectedOption) { 
-    
+    const currentQuestion = questions[currentQuestionIndex];
 }
