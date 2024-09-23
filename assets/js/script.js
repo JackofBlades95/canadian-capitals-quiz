@@ -136,6 +136,9 @@ function loadQuestion() {
     document.getElementById('optionB').textContent = currentQuestion.optionB
     document.getElementById('optionC').textContent = currentQuestion.optionC
 
+    questionNumberElement.textContent = currentQuestionIndex + 1;
+
 }
 
 loadQuestion();
+
