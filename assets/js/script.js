@@ -142,3 +142,6 @@ function loadQuestion() {
 
 loadQuestion();
 
+function handleAnswer(selectedOption) { 
+    
+}
