@@ -145,7 +145,11 @@ loadQuestion();
 function handleAnswer(selectedOption) { 
     const currentQuestion = questions[currentQuestionIndex];
 
-    if (selectedOption === currentQuestion.correctOption)
+    if (selectedOption === currentQuestion.correctOption) {
+        score++;
+        scoreElement.textContent = score;
+
+    }
 
     
 }
