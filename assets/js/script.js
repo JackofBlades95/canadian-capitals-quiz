@@ -120,7 +120,6 @@ const scoreElement = document.getElementById('score')
 const questionNumberElement = document.getElementById('question-number')
 const questionElement = document.getElementById('question')
 const buttonElement = document.getElementById('.btn')
-const nextButtonElement = document.getElementById('next-btn')
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -160,7 +159,10 @@ function handleAnswer(selectedOption) {
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
     }
+
+
     
+
 }
 
 optionAButton.addEventListener('click', () => handleAnswer('optionA'));
