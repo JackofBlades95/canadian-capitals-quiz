@@ -151,5 +151,12 @@ function handleAnswer(selectedOption) {
 
     }
 
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        loadQuestion();
+    }
     
 }
+
+
+
