@@ -164,5 +164,7 @@ function handleAnswer(selectedOption) {
     
 }
 
-
-
+optionAButton.addEventListener('click', () => handleAnswer('optionA'));
+optionBButton.addEventListener('click', () => handleAnswer('optionB'));
+optionCButton.addEventListener('click', () => handleAnswer('optionC'));
+nextButton.addEventListener('click', () => handleAnswer('next-btn'));
