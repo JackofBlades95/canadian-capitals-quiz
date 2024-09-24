@@ -142,6 +142,12 @@ function loadQuestion() {
 
 loadQuestion();
 
+const optionAButton = document.getElementById('optionA');
+const optionBButton = document.getElementById('optionB');
+const optionCButton = document.getElementById('optionC');
+const nextButton = document.getElementById('next-btn')
+
+
 function handleAnswer(selectedOption) { 
     const currentQuestion = questions[currentQuestionIndex];
 
