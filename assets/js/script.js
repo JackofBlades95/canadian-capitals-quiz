@@ -106,7 +106,7 @@ const questions = [{
 },
 
 {
-    question: "What is the capital of Northwest Terrirtories ?",
+    question: "What is the capital of Northwest Territories ?",
     optionA: "Fort Smith",
     optionB: "Inuvik",
     optionC: "YellowKnife",
