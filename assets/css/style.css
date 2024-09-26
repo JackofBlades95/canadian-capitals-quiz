@@ -72,6 +72,10 @@ main {
 
 }
 
+.restart-button  { 
+    
+}
+
 .btn:hover {
     background: black;
     color: white;
