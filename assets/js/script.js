@@ -143,7 +143,6 @@ loadQuestion();
 const optionAButton = document.getElementById('optionA');
 const optionBButton = document.getElementById('optionB');
 const optionCButton = document.getElementById('optionC');
-const nextButton = document.getElementById('next-btn')
 
 
 function handleAnswer(selectedOption) { 
@@ -158,10 +157,8 @@ function handleAnswer(selectedOption) {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
-    }
-
-
     
+}
 
 }
 
