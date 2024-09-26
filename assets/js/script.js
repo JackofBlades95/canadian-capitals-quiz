@@ -163,6 +163,8 @@ function handleAnswer(selectedOption) {
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
 
+    } else { 
+        finalScore();
     }
 
 }
@@ -171,7 +173,11 @@ optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
 
-function finalScore { 
+function finalScore()  { 
+    questionElement.textContent = "Quiz Complete!";
+    questionNumberElement.textContent = "";
+
+    scoreElement.textContent = `Your score is:  ${score}`;
 
 }
 
