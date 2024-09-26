@@ -73,7 +73,9 @@ main {
 }
 
 .restart-button  { 
-    
+    background: white;
+    color: black;
+
 }
 
 .btn:hover {
