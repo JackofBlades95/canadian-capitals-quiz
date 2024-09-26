@@ -139,6 +139,8 @@ function loadQuestion() {
 }
 function startQuiz()  { 
     currentQuestionIndex = 0;
+    score = 0;
+    scoreElement.textContent = score;
     loadQuestion();
 }
 
