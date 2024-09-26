@@ -165,6 +165,9 @@ function handleAnswer(selectedOption) {
 
     } else { 
         finalScore();
+        document.querySelector('#optionA').style.display = 'none';
+        document.querySelector('#optionB').style.display = 'none';
+        document.querySelector('#optionC').style.display = 'none';
     }
 
 }
@@ -176,7 +179,6 @@ optionCButton.addEventListener('click', () => handleAnswer('optionC'));
 function finalScore()  { 
     questionElement.textContent = "Quiz Complete!";
     questionNumberElement.textContent = "";
-
     scoreElement.textContent = `Your score is:  ${score}`;
 
 }
