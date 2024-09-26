@@ -138,6 +138,7 @@ function loadQuestion() {
 
 }
 function startQuiz()  { 
+    currentQuestionIndex = 0;
     loadQuestion();
 }
 
