@@ -137,8 +137,9 @@ function loadQuestion() {
     questionNumberElement.textContent = currentQuestionIndex + 1;
 
 }
-
-loadQuestion();
+function startQuiz()  { 
+    loadQuestion();
+}
 
 const optionAButton = document.getElementById('optionA');
 const optionBButton = document.getElementById('optionB');
