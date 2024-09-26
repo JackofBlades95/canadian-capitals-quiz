@@ -179,7 +179,7 @@ optionCButton.addEventListener('click', () => handleAnswer('optionC'));
 function finalScore()  { 
     questionElement.textContent = "Quiz Complete!";
     questionNumberElement.textContent = "";
-    scoreElement.textContent = `Your score is:  ${score}`;
+    scoreElement.textContent = `Your final score is:  ${score}`;
 
 }
 
