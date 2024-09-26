@@ -163,9 +163,7 @@ function handleAnswer(selectedOption) {
     if (currentQuestionIndex < questions.length) {
         loadQuestion();
 
-    } 
-    
-    else { 
+    } else {
         finalScore();
         document.querySelector('#optionA').style.display = 'none';
         document.querySelector('#optionB').style.display = 'none';
@@ -177,10 +175,8 @@ function handleAnswer(selectedOption) {
 optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
-document.getElementById('restart-button').addEventListener('click', restartQuiz);
 
-
-function finalScore()  { 
+function finalScore() {
     questionElement.textContent = "Quiz Complete!";
     questionNumberElement.textContent = "";
     scoreElement.textContent = `Your final score is:  ${score}`;
@@ -190,14 +186,3 @@ function finalScore()  {
 scoreElement.textContent = score;
 
 startQuiz();
-
-function restartQuiz()  { 
-    currentQuestionIndex = 0;
-    score = 0;
-    scoreElement.textContent = score;
-    document.querySelector('#optionA').style.display = 'inline-block';
-    document.querySelector('#optionB').style.display = 'inline-block';
-    document.querySelector('#optionC').style.display = 'inline-block';
-    startQuiz();
-   
-}
