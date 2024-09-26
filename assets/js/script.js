@@ -171,6 +171,10 @@ optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
 
+function finalScore { 
+
+}
+
 scoreElement.textContent = score;
 
 startQuiz();
