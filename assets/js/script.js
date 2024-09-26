@@ -186,3 +186,4 @@ function finalScore() {
 scoreElement.textContent = score;
 
 startQuiz();
+
