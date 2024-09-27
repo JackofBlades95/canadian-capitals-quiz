@@ -11,7 +11,7 @@
 
 body {
     font-family: 'Crimson', sans-serif;
-    
+
 }
 
 main {
@@ -30,17 +30,17 @@ main {
 }
 
 .box {
-  width: 90%;
-  max-width: 600px;
-  height: 30rem;
-  border-radius: 30px;
-  margin: 100px auto 0;
-  padding: 20px;
-  background-color: lightgray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+    width: 90%;
+    max-width: 600px;
+    height: 30rem;
+    border-radius: 30px;
+    margin: 100px auto 0;
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
 
 }
@@ -57,7 +57,6 @@ main {
 
 #question {
     padding: 10px
-
 }
 
 .btn {
@@ -69,25 +68,6 @@ main {
     margin: 10px 0;
     text-align: left;
     border-radius: 4px;
-
-}
-
-#restart-button  { 
-  background-color: white;
-  color: black;
-  width: 100px;
-  padding: 10px;
-  text-align: center;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  margin: 10px auto 0;
-
-}
-
-#restart-button:hover {
-    background: black;
-    color: white;
 
 }
 
