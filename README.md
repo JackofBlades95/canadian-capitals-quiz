@@ -62,9 +62,32 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 ## Testing
 
-* Testing was conducted through HTML, CSS, validators and Lighthouse.
+* Testing was conducted through HTML, CSS, JavaScript validators and Lighthouse.
 * Below the links are screenshots.
 * [W3C HTML](https://validator.w3.org/#validate_by_input)
 * [W3C CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
 * [JS HINT](https://jshint.com/)
 
+### Testing Screenshots
+
+| Index.html Test |
+
+![screenshot]()
+
+### Testing Screenshots
+
+| Index.html Test |
+
+![screenshot](assets/images/ccqhtmlvalidator.PNG)
+
+| Style.CSS Test |
+
+![screenshot](assets/images/ccqcssvalidator.PNG)
+
+| Script.JS Test |
+
+![screenshot](assets/images/ccqjsvalidator.PNG)
+
+| Lighthouse Test |
+
+![screenshot](assets/images/ccqlighthouse.PNG)
