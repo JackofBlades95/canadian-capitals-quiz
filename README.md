@@ -6,3 +6,8 @@
 * The site is targeted towards people who would like to test their knowledge of the various capital cities of Canada.
 
 ## Screenshots
+Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsive" website.
+
+| Screenshot |
+
+![screenshot](assets/images/ccqamiresponsive1.PNG)
