@@ -26,4 +26,10 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 ### Color Scheme
 
+* Colors used:
+
+* #000000 for : color, hover, text.
+* #ffffff for : background of buttons.
+* #d3d3d3 for : background of quiz containers.
+
 ### Typography
