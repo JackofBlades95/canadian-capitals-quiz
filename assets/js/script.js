@@ -177,7 +177,7 @@ optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
 
 function finalScore() {
-    questionElement.textContent = "Quiz Complete!";
+    questionElement.textContent = "Quiz Complete! Refresh the page to start the quiz over again.";
     questionNumberElement.textContent = "";
     scoreElement.textContent = `Your final score is:  ${score}`;
 
