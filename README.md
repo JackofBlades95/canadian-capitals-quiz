@@ -50,3 +50,13 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 * When there is time, I would like to update the styles to make the quiz more appealing and add a restart button to automatically restart the quiz when the user clicks on it.
 
+## Tools & Technologies Used
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [CSS Flex Box](https://www.w3schools.com/css/css3_flexbox.asp)
+* [Google Fonts](https://fonts.google.com/)
+* [Favicon](https://en.wikipedia.org/wiki/Favicon)
+* [Github](https://github.com/)
+
