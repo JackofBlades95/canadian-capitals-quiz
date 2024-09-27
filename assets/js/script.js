@@ -120,7 +120,6 @@ const scoreElement = document.getElementById('score')
 const questionNumberElement = document.getElementById('question-number')
 const questionElement = document.getElementById('question')
 const buttonElement = document.getElementById('.btn')
-const restartButton = document.getElementById('restart-button')
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -176,27 +175,14 @@ function handleAnswer(selectedOption) {
 optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
-restart-buttonElement.addEventListener('click', restartQuiz);
 
 function finalScore() {
     questionElement.textContent = "Quiz Complete!";
     questionNumberElement.textContent = "";
     scoreElement.textContent = `Your final score is:  ${score}`;
-    document.getElementById('restart-button').style.display = 'inline-block';
 
 }
-
-function restartQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    scoreElement.textContent = score;
-
-
-}
-
-document.getElementById('restart-button').style.display = 'none';
 
 scoreElement.textContent = score;
 
 startQuiz();
-
