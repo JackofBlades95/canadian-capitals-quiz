@@ -1,12 +1,12 @@
-# [Canadian Captials Quiz](https://jackofblades95.github.io/canadian-capitals-quiz/)
+# [Canadian Capitals Quiz](https://jackofblades95.github.io/canadian-capitals-quiz/)
 
 * Canadian Capitals Quiz is a simple website designed to challenge the user's knowledge of the capital cities of the Nation of Canada, with a small quiz.
 * Canadian Capitals Quiz consists of one main page.
-* Canadian Capitals Quiz has a fully functional quiz that consists of a multiple headers that state the name of the quiz, score tracker, question tracker, that actively updates as the user plays the quiz. Three buttons are used the give the player options to choose between answers.
+* Canadian Capitals Quiz has a fully functional quiz that consists of a multiple headers that state the name of the quiz, score tracker, question tracker, that actively updates as the user plays the quiz. Three buttons are used that give the player options to choose between answers.
 * The site is targeted towards people who would like to test their knowledge of the various capital cities of Canada.
 
 ## Screenshots
-Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsive" website.
+Below is a screenshot of Canadian Capitals Quiz created using the "Am I Responsive" website.
 
 | Screenshot |
 
@@ -34,12 +34,12 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 ### Typography
 
-* I used the google font "Crimson-Text" for Canadian Captials Quiz.
+* I used the google font "Crimson-Text" for Canadian Capitals Quiz.
 * [Google Font Crimson Text](https://fonts.google.com/specimen/Crimson+Text)
 
 ## Features
 
-* Canadians Captials Quiz has a fully function quiz that tracks your score and which question the user is currently on.
+* Canadians Capitals Quiz has a fully function quiz that tracks your score and which question the user is currently on.
 * The header at the top of the quiz container clearly states what the quiz is about and the background consists of an image of the Canadian parliament.
 * When the player picks an option the score is either A: updated if the player is correct or B: The user's score stays unchanged if incorrect.
 * When the player has gone through all thirteen questions, the questions will be hidden and the user will be given their final score along with a message saying "Quiz Complete!, Please refresh the page to play again" When the user refreshes the page the quiz is reset along with the users score and questions. See screen shot below:
@@ -114,7 +114,7 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 ## Credits
 
-* Below is a list of credits to tools or people that helped me with the project:
+* Below is a list of credits, tools, or people that helped me with the project:
 
 * [Greatstack Simple JavaScript quiz](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1025s) for an idea for the layout and css button styles.
 * [Favicon](https://favicon.io/emoji-favicons/flag-canada/)
