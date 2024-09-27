@@ -72,12 +72,6 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 | Index.html Test |
 
-![screenshot]()
-
-### Testing Screenshots
-
-| Index.html Test |
-
 ![screenshot](assets/images/ccqhtmlvalidator.PNG)
 
 | Style.CSS Test |
@@ -91,3 +85,29 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 | Lighthouse Test |
 
 ![screenshot](assets/images/ccqlighthouse.PNG)
+
+## Deployment
+
+* Project was deployed as follows:
+
+* Steps:
+
+* Go to the Settings tab of your GitHub repo.
+
+* On the left-hand sidebar, in the Code and automation section, select Pages.
+
+* Make sure:
+
+* Source is set to 'Deploy from Branch'.
+
+* Main branch is selected.
+
+* Folder is set to / (root).
+
+* Under Branch, click Save.
+
+* Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+
+* On the right-hand side, in the Environments section, click on 'github-pages'.
+
+* Click View deployment to see the live site. The URL will look similar to YOUR-USERNAME.github.io/canadian-capitals-quiz.
