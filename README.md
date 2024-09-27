@@ -60,3 +60,11 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * [Favicon](https://en.wikipedia.org/wiki/Favicon)
 * [Github](https://github.com/)
 
+## Testing
+
+* Testing was conducted through HTML, CSS, validators and Lighthouse.
+* Below the links are screenshots.
+* [W3C HTML](https://validator.w3.org/#validate_by_input)
+* [W3C CSS](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* [JS HINT](https://jshint.com/)
+
