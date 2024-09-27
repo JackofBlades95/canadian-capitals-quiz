@@ -11,3 +11,13 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 | Screenshot |
 
 ![screenshot](assets/images/ccqamiresponsive1.PNG)
+
+## User Stories
+
+### First Time Site Users
+
+* As a new site user, I would like to know what the site is about.
+* As a new site user, I would like to play a functional quiz that tests my knowledge on Canadian capital cities.
+* As a new site user, I would like the game to track my score and show me what question im currently on.
+* As a new site user, I would like the quiz to tell me my final score when its finished and how to play again.
+* As a new site user, I would like the site to be easy to navigate.
