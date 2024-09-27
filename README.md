@@ -46,3 +46,7 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * | Screenshot |
 * ![screenshot](assets/images/ccqendofquizscreenshot.PNG)
 
+### Features Left to Implement
+
+* When there is time, I would like to update the styles to make the quiz more appealing and add a restart button to automatically restart the quiz when the user clicks on it.
+
