@@ -1,6 +1,8 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+/* Universal styles */
+
 * {
     font-family: 'Crimson', sans-serif;
     padding: 0;
@@ -9,10 +11,14 @@
 
 }
 
+/* Body Styles */
+
 body {
     font-family: 'Crimson', sans-serif;
 
 }
+
+/* Main Content */
 
 main {
     background: url("../images/canadianparliament.jpg");
@@ -28,6 +34,8 @@ main {
     background-color: black;
 
 }
+
+/* Quiz Container */
 
 .box {
     width: 90%;
@@ -58,6 +66,8 @@ main {
 #question {
     padding: 10px
 }
+
+/* Buttons */
 
 .btn {
     background: white;
