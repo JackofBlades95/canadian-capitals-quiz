@@ -21,3 +21,9 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * As a new site user, I would like the game to track my score and show me what question im currently on.
 * As a new site user, I would like the quiz to tell me my final score when its finished and how to play again.
 * As a new site user, I would like the site to be easy to navigate.
+
+## Design
+
+### Color Scheme
+
+### Typography
