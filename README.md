@@ -33,3 +33,6 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * #d3d3d3 for : background of quiz containers.
 
 ### Typography
+
+* I used the google font "Crimson-Text" for Canadian Captials Quiz.
+* [Google Font Crimson Text](https://fonts.google.com/specimen/Crimson+Text)
