@@ -1,4 +1,4 @@
-# [Canadian Captials Quiz] (https://jackofblades95.github.io/canadian-capitals-quiz/)
+# [Canadian Captials Quiz](https://jackofblades95.github.io/canadian-capitals-quiz/)
 
 * Canadian Capitals Quiz is a simple website designed to challenge the user's knowledge of the capital cities of the Nation of Canada, with a small quiz.
 * Canadian Capitals Quiz consists of one main page.
