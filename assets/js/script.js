@@ -1,3 +1,5 @@
+/* Array to hold questions for the quiz */
+
 const questions = [{
         question: "What is the capital of Ontario ?",
         optionA: "Ottawa",
@@ -116,6 +118,8 @@ const questions = [{
 
 ];
 
+
+
 const scoreElement = document.getElementById('score')
 const questionNumberElement = document.getElementById('question-number')
 const questionElement = document.getElementById('question')
@@ -123,6 +127,8 @@ const buttonElement = document.getElementById('.btn')
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+/* Function to load questions */
 
 function loadQuestion() {
 
@@ -138,6 +144,8 @@ function loadQuestion() {
 
 }
 
+/* Function to start quiz */
+
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
@@ -149,6 +157,7 @@ const optionAButton = document.getElementById('optionA');
 const optionBButton = document.getElementById('optionB');
 const optionCButton = document.getElementById('optionC');
 
+/* Function to handle answer */
 
 function handleAnswer(selectedOption) {
     const currentQuestion = questions[currentQuestionIndex];
@@ -172,9 +181,13 @@ function handleAnswer(selectedOption) {
 
 }
 
+/* Event listerners */
+
 optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
+
+/* Function for end of the quiz */
 
 function finalScore() {
     questionElement.textContent = "Quiz Complete! Refresh the page to start the quiz over again.";
@@ -182,6 +195,8 @@ function finalScore() {
     scoreElement.textContent = `Your final score is:  ${score}`;
 
 }
+
+/* To initalize score */
 
 scoreElement.textContent = score;
 
