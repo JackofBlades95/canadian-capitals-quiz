@@ -38,3 +38,11 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * [Google Font Crimson Text](https://fonts.google.com/specimen/Crimson+Text)
 
 ## Features
+
+* Canadians Captials Quiz has a fully function quiz that tracks your score and which question the user is currently on.
+* The header at the top of the quiz container clearly states what the quiz is about and the background consists of an image of the Canadian parliament.
+* When the player picks an option the score is either A: updated if the player is correct or B: The user's score stays unchanged if incorrect.
+* When the player has gone through all thirteen questions, the questions will be hidden and the user will be give their final score along with a message saying "Quiz Complete!, Please refresh the page to play again" When the user refreshes the page the quiz is reset along with the users score and questions. See screen shot below:
+* | Screenshot |
+* ![screenshot](assets/images/ccqendofquizscreenshot.PNG)
+
