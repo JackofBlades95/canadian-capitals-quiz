@@ -176,6 +176,7 @@ function handleAnswer(selectedOption) {
 optionAButton.addEventListener('click', () => handleAnswer('optionA'));
 optionBButton.addEventListener('click', () => handleAnswer('optionB'));
 optionCButton.addEventListener('click', () => handleAnswer('optionC'));
+restart-buttonElement.addEventListener('click', restartQuiz);
 
 function finalScore() {
     questionElement.textContent = "Quiz Complete!";
