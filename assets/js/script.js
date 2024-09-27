@@ -186,6 +186,12 @@ function finalScore() {
 
 }
 
+function restartQuiz() {
+    
+
+
+}
+
 document.getElementById('restart-button').style.display = 'none';
 
 scoreElement.textContent = score;
