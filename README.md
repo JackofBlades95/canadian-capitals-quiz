@@ -128,3 +128,9 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 
 * The background photo for Canadian Captials Quiz was taken from © Library of Parliament.
 * [© Library of Parliament](https://lop.parl.ca/About/Parliament/PhotoGallery/index-e.html)
+
+### Acknowledgements
+
+* I would like to thank my mentor Chris Quinn for his recommendations and guidance.
+* I would like to thank Code Institute for the course and support.
+* I would like to thank my family for their help and support.
