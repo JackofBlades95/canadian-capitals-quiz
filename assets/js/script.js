@@ -120,6 +120,7 @@ const scoreElement = document.getElementById('score')
 const questionNumberElement = document.getElementById('question-number')
 const questionElement = document.getElementById('question')
 const buttonElement = document.getElementById('.btn')
+const restartButton = document.getElementById('restart-button')
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -180,8 +181,11 @@ function finalScore() {
     questionElement.textContent = "Quiz Complete!";
     questionNumberElement.textContent = "";
     scoreElement.textContent = `Your final score is:  ${score}`;
+    document.getElementById('restart-button').style.display = 'inline-block';
 
 }
+
+document.getElementById('restart-button').style.display = 'none';
 
 scoreElement.textContent = score;
 
