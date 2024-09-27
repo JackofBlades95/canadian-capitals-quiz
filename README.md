@@ -111,3 +111,15 @@ Below is a screenshot of Canadian Captials Quiz created using the "Am I Responsi
 * On the right-hand side, in the Environments section, click on 'github-pages'.
 
 * Click View deployment to see the live site. The URL will look similar to YOUR-USERNAME.github.io/canadian-capitals-quiz.
+
+## Credits
+
+* Below is a list of credits to tools or people that helped me with the project:
+
+* [Greatstack Simple JavaScript quiz](https://www.youtube.com/watch?v=PBcqGxrr9g8&t=1025s) for an idea for the layout and css button styles.
+* [Favicon](https://favicon.io/emoji-favicons/flag-canada/)
+* [W3Schools Js/If/Else ](https://www.w3schools.com/js/js_if_else.asp)
+* [W3Schools Dom TextContent](https://www.w3schools.com/jsref/prop_node_textcontent.asp)
+* [W3Schools Eventlistener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+* [W3Schools Favicon](https://www.w3schools.com/html/html_favicon.asp)
+* [W3Schools JS Functions](https://www.w3schools.com/js/js_functions.asp)
